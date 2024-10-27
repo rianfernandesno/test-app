@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </link>
@@ -20,7 +21,7 @@
                     <a href="#home">INÍCIO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#sobre">SOBRE</a>
+                    <a href="#sobre">SERVIÇOS</a>
                 </li>
                 <li class="nav-item">
                     <a href="#clinica">CLINICA</a>
@@ -43,7 +44,7 @@
                     <a href="#home">INÍCIO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#sobre">SOBRE</a>
+                    <a href="#sobre">SERVIÇOS</a>
                 </li>
                 <li class="nav-item">
                     <a href="#clinica">CLINICA</a>
@@ -56,7 +57,88 @@
 
         </div>
     </header>
+    
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Há 14 anos cuidado da sua
+                    <span>saúde</span>
+                </h1>
 
+                    <p class="description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, odio numquam. Consectetur harum inventore officiis, obcaecati enim ab. Nisi debitis at, optio laudantium dicta dolore cupiditate culpa saepe earum deserunt!
+                    </p>
+                    
+                    <div id="cta_buttons">
+
+                        <a href="#" class="btn_default">Ver serviços</a>
+                         
+                        <a href="tel:+99999999" id="phone_button">
+                            <button class="btn_default">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                            (77) 9999999
+                        </a>
+
+                    </div>
+                    
+                    <div class="social_media_buttons">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                
+            </div>
+
+
+            <div id="banner">
+                <img src="src/imagens/pngtree-young-afro-professional-doctor-png-image_10148632.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Nossas  referências</h3>
+            <div id="serivces">
+                <div class="service">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/pediatria.jpg" alt="">
+
+                    <h3 class="service-title">PEDIATRA</h3>
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ex eligendi. 
+                    </span>
+
+                    <div class="service_rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="service_price">
+                        <h4>R$100,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid  fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="src/javascript/script.js"></script>
 </body>
 </html>
